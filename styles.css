@@ -1,0 +1,92 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    background:#9e9996;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container img{
+    width: 200px;
+    height: 130px;
+  }
+  button {
+    border-radius: 50px;
+    font-size: 1.4em;
+    margin-top: 35px;
+    width: 140px;
+    height: 50px;
+    border: none;
+    background: rgb(5, 4, 0);
+    color: rgb(243, 236, 236);
+    padding: 8px 15px 8px 15px;
+    font-style: bold;
+  }
+  
+  button:hover {
+    color: rgb(3, 3, 3);
+    background: #31a3c5fb;
+    cursor: pointer;
+  }
+  
+  nav {
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    background-attachment: fixed;
+    background-color: #00000065;
+  }
+  nav img {
+    padding-bottom: 10px;
+    border-radius: 50px;
+    height: 5em;
+    width: 5em;
+    float: left;
+  }
+  
+  .loader {
+    margin: 0 auto;
+  }
+  
+  .avatar {
+    border-radius: 100px;
+    margin-bottom: 18px;
+  }
+  
+  #main {
+    padding: 45px 10px;
+    margin: 0 auto;
+    display: none;
+  }
+  
+  .info {
+    max-width: 350px;
+    margin: 25px 12.3px;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(-5deg, #1fbfe7, #1a1616e7);
+  }
+  .info:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    background: linear-gradient(-5deg, hsl(41, 85%, 46%), #252323);
+  }
+  .name {
+    font-family:cursive;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .email {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    overflow-wrap: break-word;
+  }
